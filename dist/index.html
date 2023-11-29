@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>To Do List</title>
+  </head>
+  <body>
+  <div id="container" class="container">
+    <div id="projects" class="container">
+      <span id="projTitle"></span>
+      <table id="table" title = 0>
+        <tr>
+            <th id="Ttitle">Title</th>
+            <th id="TDue">Due</th>
+            <th id="TPriority">Priority</th>
+            <th id="TNotes">Notes</th>
+            <th><button id="addTask">+</button></th>
+        </tr>
+      </table>
+    </div>
+    <div id="sidebar">
+        <button id="new">Add New List</button>
+        <h2>My To-Do Lists</h2>
+        <ul id="projectList"></ul>
+    </div>
+    <div id="editform">
+      <form action="" method="post" id="todoForm">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" required />
+        
+            <label for="due">Due Date</label>
+            <input type="date" name="due" id="due" required />
+      
+            <label for="priority">Priority</label>
+            <select name="priority" id="priority">
+              <option value="Urgent">Urgent!</option>
+              <option value="High Priority">High Priority</option>
+              <option value="Priority">Priority</option>
+              <option value="Low Priority">Low Priority</option>
+              <option value="Not Important">Not Important</option>
+              </select>
+        
+            <label for="notes">Notes</label>
+            <textarea name="text" id="notes" cols="30" rows="4"></textarea>
+          
+        
+            <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>

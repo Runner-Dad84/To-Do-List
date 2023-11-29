@@ -1,0 +1,42 @@
+table {
+    display:grid;
+    background-color: azure;
+    min-height: 85vh;
+    min-width: 65vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    table-layout: fixed;
+    padding-left: 1em;
+}
+
+th {
+    text-align: start;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+}
+
+th {
+    color: var(--button-color);
+}
+
+th#Ttitle {
+    width: 15%;
+}
+
+th#TDue {
+    width: 15%;
+}
+
+th#TPriority {
+    width: 10%;
+}
+
+th#TNotes {
+    width: 60%;
+
+}

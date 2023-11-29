@@ -1,0 +1,50 @@
+/* button */
+
+button {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    font-weight: bold;
+    color: white;
+}
+
+button#submit {
+    background-color: var(--button-color);
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px gray;
+}
+
+button#addTask {
+    border-radius: 50%;
+    background-color: rgb(118, 172, 155);
+    font-size: 2rem;
+}
+
+button.rmvBtn {
+    background-color:lightcoral;
+    font-size: 2rem;
+}
+
+
+.complete {
+    background-color: var(--button-color);
+}
+
+.incomplete {
+    background-color: lightcoral;
+}
+
+span.header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 3rem;
+}
+
+li {
+    padding: .5em;
+}
+
+#projectList {
+    list-style-type: none;
+};
+
